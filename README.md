@@ -14,10 +14,14 @@ cd consent-form-upload
 
 npm i
 
+tsc
+
 
 Running
 
-cp configtxt config
+cp env.txt .env
+
+nano .env
 
 npm start
 
